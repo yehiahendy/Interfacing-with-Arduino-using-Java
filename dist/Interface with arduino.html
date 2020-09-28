@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'Interface with arduino.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iSW50ZXJmYWNlIHdpdGggYXJkdWluby5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5JbnRlcmZhY2Ugd2l0aCBhcmR1aW5vPC90aXRsZT4NCiAgICA8dmVuZG9yPnllaGlhPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9ImxpYlxSWFRYY29tbS5qYXIiIHNpemU9IjYwOTg0IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcalNlcmlhbENvbW0tMS4zLjExLmphciIgc2l6ZT0iMjUyMTc1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamNvbW1vbi0xLjAuMTUuamFyIiBzaXplPSIzMDkyOTQiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxqY29tbW9uLTEuMC4xNi5qYXIiIHNpemU9IjMwOTI5MyIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGpmcmVlY2hhcnQtMS4wLjEzLmphciIgc2l6ZT0iMTQyNTc0NCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGptZi5qYXIiIHNpemU9IjIxMjc1MTAiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxqc3R1bi5qYXIiIHNpemU9Ijc3NDUzIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcb3JnLmtldm9yZWUuZXh0cmEub3NnaS5yeHR4LTIuMi4wLmphciIgc2l6ZT0iODcyMjc0IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcb3JnLnNpbnRlZi5qYXJkdWluby5jb3JlLTAuMS43LVNOQVBTSE9ULmphciIgc2l6ZT0iNzc2NTgiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxvcmcuc2ludGVmLmphcmR1aW5vLmd1aS0wLjEuNy1TTkFQU0hPVC5qYXIiIHNpemU9IjE2Mzk3MiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJJbnRlcmZhY2Ugd2l0aCBhcmR1aW5vIiA+DQogICAgPHBhcmFtIG5hbWU9InJlcXVpcmVkRlhWZXJzaW9uIiB2YWx1ZT0iOC4wKyIvPg0KICA8L2FwcGxldC1kZXNjPg0KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0icGtnaW50ZXJmYWNlLndpdGguYXJkdWluby5JbnRlcmZhY2VXaXRoQXJkdWlubyIgIG5hbWU9IkludGVyZmFjZSB3aXRoIGFyZHVpbm8iIC8+DQogIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPg0KPC9qbmxwPg0K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedpkginterface.with.arduino() {
+        dtjava.embed(
+            {
+                id : 'pkginterface.with.arduino',
+                url : 'Interface with arduino.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iSW50ZXJmYWNlIHdpdGggYXJkdWluby5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5JbnRlcmZhY2Ugd2l0aCBhcmR1aW5vPC90aXRsZT4NCiAgICA8dmVuZG9yPnllaGlhPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9ImxpYlxSWFRYY29tbS5qYXIiIHNpemU9IjYwOTg0IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcalNlcmlhbENvbW0tMS4zLjExLmphciIgc2l6ZT0iMjUyMTc1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamNvbW1vbi0xLjAuMTUuamFyIiBzaXplPSIzMDkyOTQiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxqY29tbW9uLTEuMC4xNi5qYXIiIHNpemU9IjMwOTI5MyIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGpmcmVlY2hhcnQtMS4wLjEzLmphciIgc2l6ZT0iMTQyNTc0NCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGptZi5qYXIiIHNpemU9IjIxMjc1MTAiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxqc3R1bi5qYXIiIHNpemU9Ijc3NDUzIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcb3JnLmtldm9yZWUuZXh0cmEub3NnaS5yeHR4LTIuMi4wLmphciIgc2l6ZT0iODcyMjc0IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcb3JnLnNpbnRlZi5qYXJkdWluby5jb3JlLTAuMS43LVNOQVBTSE9ULmphciIgc2l6ZT0iNzc2NTgiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxvcmcuc2ludGVmLmphcmR1aW5vLmd1aS0wLjEuNy1TTkFQU0hPVC5qYXIiIHNpemU9IjE2Mzk3MiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJJbnRlcmZhY2Ugd2l0aCBhcmR1aW5vIiA+DQogICAgPHBhcmFtIG5hbWU9InJlcXVpcmVkRlhWZXJzaW9uIiB2YWx1ZT0iOC4wKyIvPg0KICA8L2FwcGxldC1kZXNjPg0KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0icGtnaW50ZXJmYWNlLndpdGguYXJkdWluby5JbnRlcmZhY2VXaXRoQXJkdWlubyIgIG5hbWU9IkludGVyZmFjZSB3aXRoIGFyZHVpbm8iIC8+DQogIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPg0KPC9qbmxwPg0K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedpkginterface.with.arduino);
+</script>
+
+</head><body>
+<h2>Test page for <b>Interface with arduino</b></h2>
+  <b>Webstart:</b> <a href='Interface with arduino.jnlp' onclick="return launchApplication('Interface with arduino.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
